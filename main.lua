@@ -13,10 +13,6 @@ display.setDefault( "background", 100/255, 155/255, 250/255 )
 local myText = display.newText( "Trapezoid Calculator", 160, 5, native.systemFont, 20 )
 myText:setFillColor( 255/255, 100/255, 0 )
 
-local trapezoid = display.newImageRect( "assets/trap.png", 50, 50 )
-trapezoid.x = display.contentCenterX
-trapezoid.y = display.contentCenterY
-
 --variables
 local SideAOfTrapezoidTextField = native.newTextField( display.contentCenterX, display.contentCenterY + 150, 200, 30 )
 SideAOfTrapezoidTextField.id = "SideA textField"
